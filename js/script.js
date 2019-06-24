@@ -55,9 +55,9 @@ showPage(studentList, 1);
 
 // (54/10 = 5 full pages with a remainder of 4 contained on a 6th page.
 const appendPageLinks = (studentList) => {
-   let page = document.createElement('div');
-   let div = document.createElement('ul');
-   let ul = document.createElement('li');
+   let page = document.createElement(div);
+   let div = document.createElement(ul);
+   let ul = document.createElement(li);
    //div.setAttribute('pagination', 'class');
    page.appendChild(div);
    div.appendChild(ul);
