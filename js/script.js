@@ -42,11 +42,11 @@ const appendPageLinks = (studentList) => { //variable to append pages to my stud
       let a = document.querySelectorAll('a'); // 
       showPage(studentList, active); // 
       for (let j = 0; j < a.length; j++) { // ensures the active page is highlighted
-         a[j].classList.remove("active"); //
+         a[j].classList.remove("active"); //remvoes active status from page if not true.
       }
-      event.target.className="active"; // targe
+      event.target.className="active";
    });
    }
-}; 
+};
 showPage(studentList, 1); //call the student list and first page
-appendPageLinks(studentList); //calls the creation of whatever number of 
+appendPageLinks(studentList); //calls the creation of whatever number
